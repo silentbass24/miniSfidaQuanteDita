@@ -1,15 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link to CSS file-->
+    <link rel="stylesheet" href="./style.css">
     <title>Minsifida quante dita</title>
 </head>
 <body>
-    <p>Quante dita sto mostrando?</p>
-    <input type="number" name="inputNumber" id="inputNumber" min="1" max="5">
-    <button id="btnPlay">Prova!</button>
+    <div class="container">
+        <h1>Quante dita sto mostrando?</h1>
+        <div id="form-container">
+            <!--input field set with attributes max and min to have a range defined of value -->
+            <div id="input-field">
+                <input type="number" name="inputNumber" id="inputNumber" min="0" max="5">
+            </div>
+            <!--submit button-->
+            <div id="submit-button">
+                <button id="btnPlay">Prova!</button>
+            </div>
+            <!--paragraph which contains the result-->
+            <div id="p-result">
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+    
+    <!--link to function.js, which contains javascript code-->
     <script src="./function.js"></script>
 </body>
 </html>

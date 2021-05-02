@@ -1,0 +1,57 @@
+/*style rules for container*/
+.container{
+    background-color: lightblue;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+/*style rules for title*/
+.container > h1{
+    padding: 30px 0px; 
+    text-align: center;
+    color: black;
+}
+/*style rules for the box contains form*/
+#form-container{
+    align-content: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+/*style rules for the input-field div*/
+#input-field{
+    float: left;
+    margin-top: 4px;
+    margin-left: 510px;
+}
+/*style rules for the input field*/
+#inputNumber{
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+/*style rules for the submit-button div*/
+#submit-button{
+    margin-top: 90px;
+    margin-left: 650px;
+}
+/*style rules for the submit button*/
+#btnPlay{
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: #D8E6AD;
+    font-weight: 700;
+}
+/*style rules for the result div*/
+#p-result{
+    width: 1200px;
+    margin: 100px auto;            
+}
+/*style rules for the result paragraph*/
+#result{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: red;
+}
